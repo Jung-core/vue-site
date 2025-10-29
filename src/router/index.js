@@ -14,7 +14,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/vue-site/'), // ✅ 여기를 배포 경로로
   routes
 });
 
